@@ -1,0 +1,14 @@
+print("Hello,Welcome to city hospital")
+Cost=2500
+print("Cost of a room per day=2500")
+Days=int(input("Enter no. of days patient was admitted"))
+RoomCharges=Cost*Days
+Special=1000
+print("Charges for special visit=1000")
+Visit=int(input("Enter how many times you took a special visit"))
+SpecialCharges=Special*Visit
+Diagnosis=1300
+print("Cost of diagnosis is:",Diagnosis)
+Total=RoomCharges+SpecialCharges+Diagnosis
+print("Total amount of ur bill is:",Total)
+print("THANKS FOR CONTACTING US")
